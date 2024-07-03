@@ -1,0 +1,302 @@
+/* Reset default margin and padding for all elements and include border-box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  height: 60px; /* Defines the height of the navbar */
+  background-color: #0f1111; /* Background color of the navbar */
+  color: white; /* Text color of the navbar */
+  display: flex; /* Flexbox layout for navbar */
+  align-items: center; /* Aligns items vertically within the navbar */
+  justify-content: space-evenly; /* Evenly distributes items horizontally within the navbar */
+}
+
+/* Navigation logo */
+.nav-logo {
+  height: 50px; /* Height of the navigation logo */
+  width: 100px; /* Width of the navigation logo */
+}
+
+/* Logo container */
+.logo {
+  background-image: url(/images/amazon_logo.png); /* Background image for the logo */
+  background-size: cover; /* Ensures the background image covers the entire area */
+  height: 50px; /* Height of the logo container */
+  width: 100%; /* Full width of the logo container */
+}
+
+/* Border class */
+.border {
+  border: 1.5px solid transparent; /* Transparent border for elements with .border class */
+}
+
+/* Border hover effect */
+.border:hover {
+  border: 1.5px solid white; /* Border style on hover for elements with .border class */
+}
+
+/* Navigation address */
+.nav-address p {
+  color: #cccccc; /* Text color for address in navbar */
+  font-size: 0.85rem; /* Font size for address in navbar */
+  margin-left: 15px; /* Left margin for address in navbar */
+}
+
+/* Additional icon layout */
+.add-icon {
+  display: flex; /* Flexbox layout for elements with .add-icon class */
+  align-items: center; /* Aligns items vertically within .add-icon */
+}
+
+/* Additional icon paragraphs */
+.add-icon p {
+  color: white; /* Text color for paragraphs within .add-icon */
+  margin-left: 3.2px; /* Left margin for paragraphs within .add-icon */
+}
+
+/* Navigation search bar */
+.nav-search {
+  display: flex; /* Flexbox layout for search bar */
+  justify-content: space-evenly; /* Evenly distributes items horizontally within the search bar */
+  width: 620px; /* Width of the search bar */
+  height: 40px; /* Height of the search bar */
+  border-radius: 4px; /* Border radius for rounded corners */
+}
+
+/* Search bar hover effect */
+.nav-search:hover {
+  border: 1px solid #ffbc68; /* Border style on hover for the search bar */
+}
+
+/* Search select element */
+.seacrh-select {
+  background-color: #f3f3f3; /* Background color for select element in search bar */
+  width: 50px; /* Width of the select element */
+  text-align: center; /* Center-aligns text within the select element */
+  border-top-left-radius: 4px; /* Border radius for top left corner */
+  border-bottom-left-radius: 4px; /* Border radius for bottom left corner */
+  border: none; /* Removes default border */
+}
+
+/* Search input field */
+.search-input {
+  width: 100%; /* Full width of the input field in search bar */
+  font-size: 1rem; /* Font size of the input field in search bar */
+  border: none; /* Removes default border */
+  padding: 7px; /* Padding inside the input field */
+}
+
+/* Search icon */
+.search-icon {
+  width: 45px; /* Width of the search icon */
+  display: flex; /* Flexbox layout for search icon */
+  justify-content: center; /* Centers content horizontally within search icon */
+  align-items: center; /* Centers content vertically within search icon */
+  font-size: 1.3rem; /* Font size of the search icon */
+  background-color: #ffbc68; /* Background color of the search icon */
+  border-top-right-radius: 4px; /* Border radius for top right corner */
+  border-bottom-right-radius: 4px; /* Border radius for bottom right corner */
+}
+
+/* Navigation location */
+.nav-location {
+  display: flex; /* Flexbox layout for elements with .nav--location class */
+  align-items: center; /* Aligns items vertically within .nav--location */
+  margin-top: 7px; /* Top margin for .nav--location */
+  padding: 10px; /* Padding around .nav--location */
+}
+
+/* Map icon */
+.map {
+  height: 15px; /* Height of the map icon */
+  margin-right: 5px; /* Right margin for the map icon */
+}
+
+/* Span elements */
+span {
+  font-size: 0.7rem; /* Font size for spans */
+}
+
+/* Secondary navigation items */
+.nav-second {
+  font-size: 0.85rem; /* Font size for elements with .nav-second class */
+  font-weight: 700; /* Font weight for elements with .nav-second class */
+}
+
+/* Cart icon */
+.nav-cart i {
+  font-size: 30px; /* Font size of cart icon */
+}
+
+/* Cart navigation */
+.nav-cart {
+  font-size: 0.85rem; /* Font size for elements with .nav-cart class */
+  font-weight: 700; /* Font weight for elements with .nav-cart class */
+}
+
+/* Panel styles */
+.panel {
+  height: 40px; /* Height of panels */
+  background-color: #222f3d; /* Background color of panels */
+  color: white; /* Text color of panels */
+  display: flex; /* Flexbox layout for panels */
+  align-items: center; /* Aligns items vertically within panels */
+  justify-content: space-evenly; /* Evenly distributes items horizontally within panels */
+}
+
+/* Panels operations paragraphs */
+.panels-ops p {
+  display: inline; /* Makes paragraphs inline within .panels-ops */
+  margin-left: 15px; /* Left margin for paragraphs within .panels-ops */
+}
+
+/* Panels operations */
+.panels-ops {
+  width: 70%; /* Width of .panels-ops */
+  font-size: 0.85rem; /* Font size for elements within .panels-ops */
+}
+
+/* Panels deals */
+.panels-deals {
+  font-size: 0.9rem; /* Font size for elements with .panels-deals class */
+  font-weight: 700; /* Font weight for elements with .panels-deals class */
+}
+
+/* Hero section */
+.hero-section {
+  background-image: url("/images/hero_image.jpg"); /* Background image for hero section */
+  background-size: cover; /* Ensures the background image covers the entire area */
+  height: 350px; /* Height of hero section */
+  display: flex; /* Flexbox layout for hero section */
+  justify-content: center; /* Centers content horizontally within hero section */
+  align-items: flex-end; /* Aligns items to the bottom within hero section */
+}
+
+/* Hero message */
+.hero-message {
+  height: 40px; /* Height of hero message */
+  display: flex; /* Flexbox layout for hero message */
+  align-items: center; /* Centers items vertically within hero message */
+  justify-content: center; /* Centers items horizontally within hero message */
+  background-color: white; /* Background color of hero message */
+  color: black; /* Text color of hero message */
+  font-size: 0.85rem; /* Font size of hero message */
+  margin-bottom: 25px; /* Bottom margin for hero message */
+}
+
+/* Hero message links */
+.hero-message a {
+  color: #007185; /* Color of links within hero message */
+}
+
+/* Shop section */
+.shop-section {
+  display: flex; /* Flexbox layout for shop section */
+  flex-wrap: wrap; /* Allows items to wrap within shop section */
+  justify-content: space-evenly; /* Evenly distributes items horizontally within shop section */
+  background-color: #e2e7e6; /* Background color of shop section */
+}
+
+/* Box styles */
+.box {
+  height: 400px; /* Height of box elements */
+  width: 23%; /* Width of box elements */
+  background-color: white; /* Background color of box elements */
+  padding: 20px 0px 15px; /* Padding around box elements */
+  margin-top: 15px; /* Top margin for box elements */
+}
+
+/* Box content spans */
+.box-content span {
+  font-size: 1.2rem; /* Font size for spans within box content */
+  font-weight: 700; /* Font weight for spans within box content */
+}
+
+/* Box content */
+.box-content {
+  margin-left: 1rem; /* Left margin for box content */
+  margin-right: 1rem; /* Right margin for box content */
+}
+
+/* Box image */
+.box-image {
+  height: 300px; /* Height of images within box */
+  margin-top: 1rem; /* Top margin for images within box */
+  margin-bottom: 1rem; /* Bottom margin for images within box */
+  background-size: cover; /* Ensures images cover the entire area */
+}
+
+/* Box content paragraphs */
+.box-content p {
+  color: #007185; /* Color of paragraphs within box content */
+}
+
+/* footer*/
+footer {
+  margin-top: 15px;
+}
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-pannel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.foot-panel3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-panel3 .logo {
+  background-image: url(/images/amazon_logo.png); /* Background image for the logo */
+  background-size: cover; /* Ensures the background image covers the entire area */
+  height: 50px; /* Height of the logo container */
+  width: 100px;
+}
+
+.foot-panel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.pages {
+  padding-top: 25px;
+}
+
+.copyright {
+  margin-top: 5px;
+}
